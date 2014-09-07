@@ -13,7 +13,6 @@
 		BFC2B20919BABA8A006340B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFC2B20719BABA8A006340B7 /* InfoPlist.strings */; };
 		BFC2B20B19BABA8A006340B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC2B20A19BABA8A006340B7 /* main.m */; };
 		BFC2B20F19BABA8A006340B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC2B20E19BABA8A006340B7 /* AppDelegate.m */; };
-		BFC2B21219BABA8A006340B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC2B21019BABA8A006340B7 /* Main.storyboard */; };
 		BFC2B21519BABA8A006340B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC2B21419BABA8A006340B7 /* ViewController.m */; };
 		BFC2B21719BABA8A006340B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC2B21619BABA8A006340B7 /* Images.xcassets */; };
 		BFC2B21E19BABA8A006340B7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC2B21D19BABA8A006340B7 /* XCTest.framework */; };
@@ -21,6 +20,7 @@
 		BFC2B22019BABA8A006340B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC2B20219BABA8A006340B7 /* UIKit.framework */; };
 		BFC2B22819BABA8A006340B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFC2B22619BABA8A006340B7 /* InfoPlist.strings */; };
 		BFC2B22A19BABA8A006340B7 /* lab3iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC2B22919BABA8A006340B7 /* lab3iosTests.m */; };
+		BFC2B23519BC0F6F006340B7 /* randomcolor.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC2B23419BC0F6F006340B7 /* randomcolor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,6 @@
 		BFC2B20C19BABA8A006340B7 /* lab3ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lab3ios-Prefix.pch"; sourceTree = "<group>"; };
 		BFC2B20D19BABA8A006340B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BFC2B20E19BABA8A006340B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BFC2B21119BABA8A006340B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFC2B21319BABA8A006340B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BFC2B21419BABA8A006340B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BFC2B21619BABA8A006340B7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +52,8 @@
 		BFC2B22519BABA8A006340B7 /* lab3iosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lab3iosTests-Info.plist"; sourceTree = "<group>"; };
 		BFC2B22719BABA8A006340B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BFC2B22919BABA8A006340B7 /* lab3iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lab3iosTests.m; sourceTree = "<group>"; };
+		BFC2B23319BC0F6F006340B7 /* randomcolor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = randomcolor.h; sourceTree = "<group>"; };
+		BFC2B23419BC0F6F006340B7 /* randomcolor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = randomcolor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,9 +113,8 @@
 		BFC2B20419BABA8A006340B7 /* lab3ios */ = {
 			isa = PBXGroup;
 			children = (
-				BFC2B20D19BABA8A006340B7 /* AppDelegate.h */,
-				BFC2B20E19BABA8A006340B7 /* AppDelegate.m */,
-				BFC2B21019BABA8A006340B7 /* Main.storyboard */,
+				BFC2B23319BC0F6F006340B7 /* randomcolor.h */,
+				BFC2B23419BC0F6F006340B7 /* randomcolor.m */,
 				BFC2B21319BABA8A006340B7 /* ViewController.h */,
 				BFC2B21419BABA8A006340B7 /* ViewController.m */,
 				BFC2B21619BABA8A006340B7 /* Images.xcassets */,
@@ -126,6 +126,8 @@
 		BFC2B20519BABA8A006340B7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BFC2B20D19BABA8A006340B7 /* AppDelegate.h */,
+				BFC2B20E19BABA8A006340B7 /* AppDelegate.m */,
 				BFC2B20619BABA8A006340B7 /* lab3ios-Info.plist */,
 				BFC2B20719BABA8A006340B7 /* InfoPlist.strings */,
 				BFC2B20A19BABA8A006340B7 /* main.m */,
@@ -230,7 +232,6 @@
 			files = (
 				BFC2B21719BABA8A006340B7 /* Images.xcassets in Resources */,
 				BFC2B20919BABA8A006340B7 /* InfoPlist.strings in Resources */,
-				BFC2B21219BABA8A006340B7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFC2B23519BC0F6F006340B7 /* randomcolor.m in Sources */,
 				BFC2B21519BABA8A006340B7 /* ViewController.m in Sources */,
 				BFC2B20F19BABA8A006340B7 /* AppDelegate.m in Sources */,
 				BFC2B20B19BABA8A006340B7 /* main.m in Sources */,
@@ -280,14 +282,6 @@
 				BFC2B20819BABA8A006340B7 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		BFC2B21019BABA8A006340B7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BFC2B21119BABA8A006340B7 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		BFC2B22619BABA8A006340B7 /* InfoPlist.strings */ = {
